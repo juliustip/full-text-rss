@@ -157,7 +157,7 @@ $options->message_to_append = '';
 // Error message when content extraction fails (without access key)
 // ----------------------
 //$options->error_message = '[unable to retrieve full-text content]';
-$options->error_message = '.';
+$options->error_message = '';
 
 
 // Keep enclosure in feed items
