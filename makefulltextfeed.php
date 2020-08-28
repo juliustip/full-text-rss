@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
 // Full-Text RSS: Create Full-Text Feeds
 // Author: Keyvan Minoukadeh
 // Copyright (c) 2013 Keyvan Minoukadeh
