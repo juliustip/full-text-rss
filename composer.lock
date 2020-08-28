@@ -13,10 +13,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "ext-mbstring": "*"
-    },
-    "platform-dev": [],
-    "require": {
+        "ext-mbstring": "*",
         "php": "^5.6.16"
-    }
+    },
+    "platform-dev": []
 }
