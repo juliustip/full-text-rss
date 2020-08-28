@@ -15,5 +15,8 @@
     "platform": {
         "ext-mbstring": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "require": {
+        "php": "^5.6.16"
+    }
 }
