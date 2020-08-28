@@ -1,6 +1,4 @@
 <?php
-error_reporting(E_ALL);
-ini_set("display_errors", 0);
 // Full-Text RSS: Create Full-Text Feeds
 // Author: Keyvan Minoukadeh
 // Copyright (c) 2013 Keyvan Minoukadeh
@@ -31,7 +29,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // For more request parameters, see http://help.fivefilters.org/customer/portal/articles/226660-usage
 
 error_reporting(E_ALL ^ E_NOTICE);
-ini_set('display_errors', 'On');
+ini_set('display_errors', 'Off');
 ini_set('xdebug.overload_var_dump', '0');
 mb_internal_encoding('UTF-8');
 @set_time_limit(600);
